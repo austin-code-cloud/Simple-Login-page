@@ -1,0 +1,132 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+.flex-r,
+.flex-c {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+.flex-c {
+  flex-direction: column;
+}
+.flex-r {
+  flex-direction: row;
+}
+
+.container {
+  width: 100%;
+  min-height: 100vh;
+  padding: 20px 10px;
+  background: #cecccc;
+}
+
+.login-text {
+  background-color: #f6f6f6;
+  width: 400px;
+  min-height: 500px;
+  border-radius: 2px;
+  padding: 10px 30px;
+}
+
+.logo {
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+
+.logo img {
+    width: 150px;
+    max-height: 100%;
+}
+.logo span,
+.logo span i {
+  font-size: 25px;
+  color: #ec0b3c;
+}
+
+.login-text h1 {
+  font-size: 22px;
+  margin-bottom: 10px;
+}
+.login-text p {
+  font-size: 12px;
+  font-weight: 600;
+  color: #000000b2;
+}
+
+form {
+  align-items: flex-start !important;
+  width: 100%;
+}
+
+.input-box {
+  margin: 10px 0px;
+  width: 100%;
+}
+.label {
+  font-size: 12px;
+  color: black;
+  margin-bottom: 3px;
+}
+.input {
+  background-color: #f6f6f6;
+  padding: 0px 5px;
+  border: 2px solid rgba(216, 216, 216, 1);
+  border-radius: 3px;
+  overflow: hidden;
+  justify-content: flex-start;
+  margin-top: 10px;
+}
+
+input {
+  border: none;
+  outline: none;
+  padding: 10px 5px;
+  background-color: #f6f6f6;
+  flex: 1;
+}
+.input i {
+  color: rgba(0, 0, 0, 0.4);
+}
+
+.check a {
+  color: #ec0b3c;
+  font-size: 12px;
+  font-weight: bold;
+  padding-left: 5px;
+  text-decoration: none;
+  margin-left: 199px;
+}
+
+.btn {
+  color: #ffffff;
+  border-radius: 3px;
+  padding: 10px 15px;
+  background: linear-gradient(122.33deg, #ec0b3c 30.62%, #ec0b3c 100%);
+  margin-top: 30px;
+  margin-bottom: 10px;
+  font-size: 13px;
+  transition: all 0.3s linear;
+  width: 100%;
+  cursor: pointer;
+}
+
+.btn:hover {
+  transform: translateY(-2px);
+}
+.extra-line {
+  font-size: 12px;
+  font-weight: 600;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+.extra-line a {
+  color: #ec0b3c;
+  text-decoration: none;
+}
